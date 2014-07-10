@@ -1,12 +1,12 @@
 easyblock = 'ConfigureMake'
 
 name = 'gc'
-version = '7.2e'
+version = '7.2f'
 
 homepage = 'http://www.hboehm.info/gc/'
 description = """The Boehm-Demers-Weiser conservative garbage collector can be used as a garbage collecting replacement for C malloc or C++ new."""
 
-toolchain = {'name': 'ictce', 'version': '6.2.5'}
+toolchain = {'name': 'ictce', 'version': '6.3.5'}
 
 source_urls = [
     'http://www.hboehm.info/gc/gc_source/'
